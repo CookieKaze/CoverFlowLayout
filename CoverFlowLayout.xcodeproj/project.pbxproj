@@ -13,6 +13,9 @@
 		1D9D4BC01DDE0A39005048CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D4BBE1DDE0A39005048CA /* Main.storyboard */; };
 		1D9D4BC21DDE0A39005048CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D4BC11DDE0A39005048CA /* Assets.xcassets */; };
 		1D9D4BC51DDE0A39005048CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D4BC31DDE0A39005048CA /* LaunchScreen.storyboard */; };
+		1D9D4BCE1DDE0AA5005048CA /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D4BCD1DDE0AA5005048CA /* CollectionViewController.m */; };
+		1D9D4BD11DDE0AF0005048CA /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D4BD01DDE0AF0005048CA /* CoverFlowLayout.m */; };
+		1DF001EC1DDE51D900F6CAE5 /* cutecat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF001EB1DDE51D900F6CAE5 /* cutecat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		1D9D4BC11DDE0A39005048CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9D4BC41DDE0A39005048CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D9D4BC61DDE0A39005048CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9D4BCC1DDE0AA5005048CA /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		1D9D4BCD1DDE0AA5005048CA /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		1D9D4BCF1DDE0AF0005048CA /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = SOURCE_ROOT; };
+		1D9D4BD01DDE0AF0005048CA /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = SOURCE_ROOT; };
+		1DF001EB1DDE51D900F6CAE5 /* cutecat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cutecat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,14 @@
 		1D9D4BB41DDE0A39005048CA /* CoverFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				1D9D4BB81DDE0A39005048CA /* AppDelegate.h */,
-				1D9D4BB91DDE0A39005048CA /* AppDelegate.m */,
+				1D9D4BCF1DDE0AF0005048CA /* CoverFlowLayout.h */,
+				1D9D4BD01DDE0AF0005048CA /* CoverFlowLayout.m */,
 				1D9D4BBB1DDE0A39005048CA /* ViewController.h */,
 				1D9D4BBC1DDE0A39005048CA /* ViewController.m */,
 				1D9D4BBE1DDE0A39005048CA /* Main.storyboard */,
-				1D9D4BC11DDE0A39005048CA /* Assets.xcassets */,
-				1D9D4BC31DDE0A39005048CA /* LaunchScreen.storyboard */,
-				1D9D4BC61DDE0A39005048CA /* Info.plist */,
+				1D9D4BCC1DDE0AA5005048CA /* CollectionViewController.h */,
+				1D9D4BCD1DDE0AA5005048CA /* CollectionViewController.m */,
+				1DF001EB1DDE51D900F6CAE5 /* cutecat.jpg */,
 				1D9D4BB51DDE0A39005048CA /* Supporting Files */,
 			);
 			path = CoverFlowLayout;
@@ -74,6 +82,11 @@
 		1D9D4BB51DDE0A39005048CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D9D4BB81DDE0A39005048CA /* AppDelegate.h */,
+				1D9D4BB91DDE0A39005048CA /* AppDelegate.m */,
+				1D9D4BC11DDE0A39005048CA /* Assets.xcassets */,
+				1D9D4BC31DDE0A39005048CA /* LaunchScreen.storyboard */,
+				1D9D4BC61DDE0A39005048CA /* Info.plist */,
 				1D9D4BB61DDE0A39005048CA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +153,7 @@
 				1D9D4BC51DDE0A39005048CA /* LaunchScreen.storyboard in Resources */,
 				1D9D4BC21DDE0A39005048CA /* Assets.xcassets in Resources */,
 				1D9D4BC01DDE0A39005048CA /* Main.storyboard in Resources */,
+				1DF001EC1DDE51D900F6CAE5 /* cutecat.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9D4BCE1DDE0AA5005048CA /* CollectionViewController.m in Sources */,
+				1D9D4BD11DDE0AF0005048CA /* CoverFlowLayout.m in Sources */,
 				1D9D4BBD1DDE0A39005048CA /* ViewController.m in Sources */,
 				1D9D4BBA1DDE0A39005048CA /* AppDelegate.m in Sources */,
 				1D9D4BB71DDE0A39005048CA /* main.m in Sources */,
@@ -307,6 +323,7 @@
 				1D9D4BCB1DDE0A39005048CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
